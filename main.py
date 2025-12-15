@@ -1,3 +1,4 @@
 from utils import greet
 
-greet("person1")
+name = input("Enter your name: ")
+greet(name)
