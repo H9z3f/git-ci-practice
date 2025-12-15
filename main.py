@@ -1,4 +1,4 @@
 from utils import greet
 
 name = input("Enter your name: ")
-greet(name)
+greet(name.upper())
